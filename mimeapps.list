@@ -1,0 +1,13 @@
+[Added Associations]
+inode/directory=org.kde.dolphin.desktop;
+x-scheme-handler/geo=qwant-maps-geo-handler.desktop;
+x-scheme-handler/http=mercury-browser.desktop;
+x-scheme-handler/https=mercury-browser.desktop;
+
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop;
+x-scheme-handler/geo=qwant-maps-geo-handler.desktop;
+x-scheme-handler/http=mercury-browser.desktop;
+x-scheme-handler/https=mercury-browser.desktop;
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/mailto=thorium-browser.desktop
