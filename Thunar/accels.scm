@@ -47,6 +47,7 @@
 ; (gtk_accel_path "<Actions>/ThunarStandardView/unselect-all-files" "Escape")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/copy-2" "<Primary>Insert")
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-out-alt" "<Primary>KP_Subtract")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/d84b7f0c306445472da64f708cc2698c" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/cancel-search" "Escape")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/select-by-pattern" "<Primary>s")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/rename" "F2")
