@@ -4,7 +4,7 @@
     border-radius: 4px;
     font-family: JetbrainsMono; /*  FontAwesome */
     font-weight: Bold;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 window#waybar {
@@ -156,6 +156,11 @@ label:focus {
    color: #ffffff;
 }
 
+#memory {
+    /*background-color: #bbccdd;*/
+   color: #ffffff;
+}
+
 #disk {
     background-color: #964B00;
 }
@@ -179,14 +184,23 @@ label:focus {
     color: #ffffff;
 }
 
+#network.disconnected {
+   /* background-color: #bbccdd;*/
+}
+
+#pulseaudio {
+    /*background-color: #bbccdd;*/
+    color: #ffffff;
+}
+
 #pulseaudio.muted {
     background-color: #90b1b1;
-    color: #2a5c45;
+    color: #ffffff;
 }
 
 #wireplumber {
     background-color: #fff0f5;
-    color: #000000;
+    color: #ffffff;
 }
 
 #wireplumber.muted {
