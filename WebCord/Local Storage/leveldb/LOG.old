@@ -1,5 +1,14 @@
-2023/11/14-16:31:08.930 ff1 Reusing MANIFEST /home/yahhas/.config/WebCord/Local Storage/leveldb/MANIFEST-000001
-2023/11/14-16:31:08.930 ff1 Recovering log #8
-2023/11/14-16:31:08.939 ff1 Level-0 table #10: started
-2023/11/14-16:31:08.952 ff1 Level-0 table #10: 2005137 bytes OK
-2023/11/14-16:31:08.956 ff1 Delete type=0 #8
+2023/11/14-19:47:09.295 9bb3 Reusing MANIFEST /home/yahhas/.config/WebCord/Local Storage/leveldb/MANIFEST-000001
+2023/11/14-19:47:09.295 9bb3 Recovering log #14
+2023/11/14-19:47:09.296 9bb3 Reusing old log /home/yahhas/.config/WebCord/Local Storage/leveldb/000014.log 
+2023/11/14-19:50:11.295 9bb4 Level-0 table #17: started
+2023/11/14-19:50:11.298 9bb4 Level-0 table #17: 61971 bytes OK
+2023/11/14-19:50:11.302 9bb4 Delete type=0 #14
+2023/11/14-19:50:11.302 9bb4 Compacting 4@0 + 0@1 files
+2023/11/14-19:50:11.320 9bb4 Generated table #18@0: 69 keys, 2056581 bytes
+2023/11/14-19:50:11.320 9bb4 Compacted 4@0 + 0@1 files => 2056581 bytes
+2023/11/14-19:50:11.324 9bb4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/14-19:50:11.324 9bb4 Delete type=2 #7
+2023/11/14-19:50:11.324 9bb4 Delete type=2 #10
+2023/11/14-19:50:11.324 9bb4 Delete type=2 #13
+2023/11/14-19:50:11.324 9bb4 Delete type=2 #17

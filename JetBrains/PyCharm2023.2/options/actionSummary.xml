@@ -1,0 +1,94 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="1" l="1700033782020" />
+    </e>
+    <e n="$Undo">
+      <i c="5" l="1700035527618" />
+    </e>
+    <e n="BraceOrQuoteOut">
+      <i c="1" l="1700035782158" />
+    </e>
+    <e n="CheckinProject">
+      <i c="1" l="1700035856531" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="374" l="1700035868538" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="9" l="1700034682336" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="36" l="1700035811426" />
+    </e>
+    <e n="EditorCopy">
+      <i c="5" l="1700035598635" />
+    </e>
+    <e n="EditorCut">
+      <i c="2" l="1700035415557" />
+    </e>
+    <e n="EditorDelete">
+      <i c="7" l="1700035547799" />
+    </e>
+    <e n="EditorDown">
+      <i c="76" l="1700035505412" />
+    </e>
+    <e n="EditorEnter">
+      <i c="30" l="1700035753605" />
+    </e>
+    <e n="EditorEscape">
+      <i c="3" l="1700034225969" />
+    </e>
+    <e n="EditorIncreaseFontSizeGlobal">
+      <i c="6" l="1700034187860" />
+    </e>
+    <e n="EditorLeft">
+      <i c="84" l="1700035783398" />
+    </e>
+    <e n="EditorNextWordWithSelection">
+      <i c="8" l="1700034696217" />
+    </e>
+    <e n="EditorPaste">
+      <i c="4" l="1700035716636" />
+    </e>
+    <e n="EditorPreviousWordWithSelection">
+      <i c="25" l="1700035783897" />
+    </e>
+    <e n="EditorRight">
+      <i c="123" l="1700035832601" />
+    </e>
+    <e n="EditorTab">
+      <i c="4" l="1700035530892" />
+    </e>
+    <e n="EditorUp">
+      <i c="16" l="1700035529474" />
+    </e>
+    <e n="Git.Commit.And.Push.Executor">
+      <i c="1" l="1700035872793" />
+    </e>
+    <e n="ReformatCode">
+      <i c="1" l="1700035473282" />
+    </e>
+    <e n="SaveAll">
+      <i c="44" l="1700035849668" />
+    </e>
+    <e n="ShowSettings">
+      <i c="2" l="1700034178435" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="1" l="1700032588970" />
+    </e>
+    <e n="com.intellij.ide.browsers.actions.BaseOpenInBrowserAction">
+      <i c="9" l="1700035723107" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="2" l="1700032744229" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="4" l="1700035850955" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1700035888609" />
+    </e>
+  </component>
+</application>

@@ -1,4 +1,4 @@
--Xmx1987m
+-Xmx2048m
 -Dide.managed.by.toolbox=/home/yahhas/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox
 -Dtoolbox.notification.token=10b113d1-526e-4b0f-98dc-820a755777ba
 -Dtoolbox.notification.portFile=/home/yahhas/.cache/JetBrains/Toolbox/ports/1083737830.port
