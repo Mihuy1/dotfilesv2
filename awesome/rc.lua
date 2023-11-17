@@ -124,7 +124,7 @@ mytextclock.font = "Jetbrains Mono 13"
 
 screen.connect_signal("request::desktop_decoration", function(s)
     -- Each screen has its own tag table.
-    awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
+    awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[9])
 
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
@@ -246,10 +246,6 @@ awful.keyboard.append_global_keybindings({
 
 -- Tags related keybindings
 awful.keyboard.append_global_keybindings({
-    awful.key({ modkey,           }, "Left",   awful.tag.viewprev,
-              {description = "view previous", group = "tag"}),
-    awful.key({ modkey,           }, "Right",  awful.tag.viewnext,
-              {description = "view next", group = "tag"}),
     awful.key({ modkey,           }, "Escape", awful.tag.history.restore,
               {description = "go back", group = "tag"}),
 })
@@ -293,10 +289,14 @@ awful.keyboard.append_global_keybindings({
 
 -- Layout related keybindings
 awful.keyboard.append_global_keybindings({
-    awful.key({ modkey, "Shift"   }, "j", function () awful.client.swap.byidx(  1)    end,
-              {description = "swap with next client by index", group = "client"}),
-    awful.key({ modkey, "Shift"   }, "k", function () awful.client.swap.byidx( -1)    end,
-              {description = "swap with previous client by index", group = "client"}),
+    awful.key({ modkey, "Shift"   }, "Left", function () awful.client.swap.global_bydirection( "left")    end,
+              {description = "move window left", group = "client"}),
+    awful.key({ modkey, "Shift"   }, "Right", function () awful.client.swap.global_bydirection( "right")    end,
+              {description = "move window right", group = "client"}),
+    awful.key({ modkey, "Shift"   }, "Down", function () awful.client.swap.global_bydirection( "down")    end,
+              {description = "move window down", group = "client"}),
+    awful.key({ modkey, "Shift"   }, "Up", function () awful.client.swap.global_bydirection( "up")    end,
+              {description = "move windw up", group = "client"}),
     awful.key({ modkey,           }, "u", awful.client.urgent.jumpto,
               {description = "jump to urgent client", group = "client"}),
     awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)          end,
