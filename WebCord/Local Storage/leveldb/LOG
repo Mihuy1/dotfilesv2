@@ -1,6 +1,0 @@
-2023/11/15-09:08:08.822 6dc1 Reusing MANIFEST /home/yahhas/.config/WebCord/Local Storage/leveldb/MANIFEST-000001
-2023/11/15-09:08:08.822 6dc1 Recovering log #16
-2023/11/15-09:08:08.822 6dc1 Reusing old log /home/yahhas/.config/WebCord/Local Storage/leveldb/000016.log 
-2023/11/15-09:10:33.949 6dc2 Level-0 table #21: started
-2023/11/15-09:10:33.964 6dc2 Level-0 table #21: 2002916 bytes OK
-2023/11/15-09:10:33.968 6dc2 Delete type=0 #16
